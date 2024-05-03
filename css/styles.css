@@ -540,7 +540,7 @@ address {
   pointer-events: none;
   transition: opacity 250ms ease-in-out;
 }
-.modal-overlay .is-open {
+.modal-overlay.is-open {
   opacity: 1;
   pointer-events: auto;
 }
