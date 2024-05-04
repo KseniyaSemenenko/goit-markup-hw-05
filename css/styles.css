@@ -712,7 +712,7 @@ placeholder {
   justify-content: center;
   fill: transparent;
 }
-.checkbox-action:checked + .form-checkbox {
+input[type='checkbox']:checked + .form-checkbox {
   background-color: #404bbf;
   fill: #f4f4fd;
   border: none;
